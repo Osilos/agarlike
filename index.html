@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script>var socket = io();</script>
+	<header></header>
+	<div class="id"></div>
+	<div class="connectTo">
+	Joue en équipe :
+		<input type="number" id="connect">
+		<input type="submit" value="Connect" id="btnConnect">
+	</div>
+	<canvas id="game" width="1250" height="600"></canvas>
+    <script data-main="scripts/main" type="text/javascript" src="scripts/require.js"></script>
+</body>
+</html>
